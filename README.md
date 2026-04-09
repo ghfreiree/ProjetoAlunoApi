@@ -2,7 +2,7 @@
 
 Este projeto é uma aplicação Java desenvolvida para demonstrar a integração com banco de dados relacional (Oracle) e o consumo de APIs REST externas. O sistema realiza operações de CRUD para gerenciamento de alunos e consulta serviços públicos para obtenção de dados de endereços e personagens de Star Wars.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 O projeto está dividido em dois módulos principais:
 
@@ -18,7 +18,7 @@ Utiliza `Apache HttpClient` e `GSON` para requisições e desserialização de J
 * **ViaCEP**: Consulta de endereços através do CEP (`viacep.com.br`).
 * **SWAPI (Star Wars API)**: Consulta de dados de personagens da saga Star Wars (`swapi.dev`).
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **Java 21**
 * **Maven**: Gerenciamento de dependências.
@@ -27,7 +27,7 @@ Utiliza `Apache HttpClient` e `GSON` para requisições e desserialização de J
 * **Google Gson**: Para conversão de JSON para objetos Java.
 * **Java Swing (JOptionPane)**: Para interação simples com o usuário via janelas de diálogo.
 
-## 📦 Estrutura do Projeto
+## Estrutura do Projeto
 
 * `br.com.fiap.api`: Modelos (DTOs) para as APIs externas (`Endereco`, `Pessoa`).
 * `br.com.fiap.beans`: Modelo de domínio (`Aluno`).
@@ -36,7 +36,7 @@ Utiliza `Apache HttpClient` e `GSON` para requisições e desserialização de J
 * `br.com.fiap.services`: Serviços responsáveis por chamar as APIs externas.
 * `br.com.fiap.main`: Classes executáveis para testar cada funcionalidade (`TesteInserir`, `TesteViaCep`, etc).
 
-## ▶️ Como Executar
+## Como Executar
 
 ### Pré-requisitos
 * Java JDK 21 instalado.
